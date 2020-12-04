@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>THIS IS MY AWESOME WEBPAGE</title>
+</head>
+<body>
+    <h1>Super Sprinter 3000</h1>
+    <table>
+           <thead>
+           <tr>
+               {% for header in table_headers %}
+                    <th>
+                         {{ header }}
+                    </th>
+               {% endfor %}
+           </tr>
+
+    </thead>
+    </table>
+
+</body>
+</html>
